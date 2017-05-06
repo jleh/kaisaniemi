@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kaisaniemi</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        #photo-frame {
+            position: absolute;
+            height: 80%;
+            width: 80%;
+            text-align: center;
+            top: 10%;
+            z-index: 9999;
+            margin-left: auto;
+            margin-right: auto;
+            left: 10%;
+            display: none;
+        }
+        #photo-frame img {
+            height: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <!-- Sounds here -->
+    <audio id="yo"><source src="sound/yo.mp3" type="audio/mpeg"></audio>
+    <audio id="suihkulahde"><source src="sound/suihkulahde.mp3" type="audio/mpeg"></audio>
+    <audio id="koira"><source src="sound/koira.mp3" type="audio/mpeg"></audio>
+    <audio id="vappu"><source src="sound/vappu.mp3" type="audio/mpeg"></audio>
+    <audio id="puisto"><source src="sound/puisto.mp3" type="audio/mpeg"></audio>
+
+
+    <div id="photo-frame">
+        <img id="photo" onclick="closePhoto()">
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script type="text/javascript">
+        var map = L.map('map');
+        var sound;
+
+        map.on('click', function(e) { console.log(e.latlng); });
+
+        L.tileLayer('http://karttalehtinen.s3-website-eu-west-1.amazonaws.com/helsinki1925/{z}/{x}/{y}.png',
+            {
+                tms: true,
+                maxNativeZoom: 16
+            }).addTo(map);
+
+        map.setView([60.17424222834386, 24.944286346435547], 16);
+
+        function markerClicked(e) {
+            playSound(e.target.options.name);
+            showPhoto(e.target.options.name);
+        }
+
+        function playSound(name) {
+            sound = name;
+            document.getElementById(name).play();
+        }
+
+        function showPhoto(name) {
+            document.getElementById('photo-frame').style.display = 'block';
+            document.getElementById('photo').src = 'photos/' + name + '.jpg';
+        }
+
+        function closePhoto() {
+            document.getElementById('photo-frame').style.display = 'none';
+            document.getElementById(sound).pause();
+            document.getElementById(sound).currentTime = 0;
+        }
+
+        function createMarker(coords, name) {
+            L.marker(coords, { name: name })
+                .addTo(map)
+                .on('click', markerClicked);
+        }
+
+        // Markers here
+
+        createMarker([60.17381266650259, 24.944211244583133], 'yo');
+        createMarker([60.1733777627668, 24.943685531616214], 'suihkulahde');
+        createMarker([60.17665407374073, 24.94256973266602], 'koira');
+        createMarker([60.176664745229466, 24.94106769561768], 'vappu');
+        createMarker([60.173559195700115, 24.946968555450443], 'puisto');
+    </script>
+</body>
+</html>
