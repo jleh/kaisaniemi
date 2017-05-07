@@ -232,8 +232,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "allashakli" 
-        "kuvatiedot": "Suomen kansallisteatteri. Etualalla Kaisaniemen puiston vesiallas suihkulähteineen. Kari Hakli, 2011, HKM.
-"
+        "kuvatiedot": "Suomen kansallisteatteri. Etualalla Kaisaniemen puiston vesiallas suihkulähteineen. Kari Hakli, 2011, HKM."
       },
       "geometry": {
         "type": "Point",
