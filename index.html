@@ -3,6 +3,9 @@
 <head>
     <title>Kaisaniemi</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 
     <style type="text/css">
@@ -29,7 +32,11 @@
             display: none;
         }
         #photo-frame img {
-            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            cursor: pointer;
+            border: 7px solid #fff;
+            border-radius: 4px;
             cursor: pointer;
         }
     </style>
@@ -46,6 +53,12 @@
     <audio id="puisto"><source src="sound/puisto.mp3" type="audio/mpeg"></audio>
     <audio id="sorsat"><source src="sound/sorsat.mp3" type="audio/mpeg"></audio>
     <audio id="luistinrata"><source src="sound/luistinrata.mp3" type="audio/mpeg"></audio>
+    <audio id="unioninkatu"><source src="sound/unioninkatu.mp3" type="audio/mpeg"></audio>
+    <audio id="tulipalo"><source src="sound/tulipalo.mp3" type="audio/mpeg"></audio>
+    <audio id="tivoli"><source src="sound/tivoli.mp3" type="audio/mpeg"></audio>
+    <audio id="maenlasku"><source src="sound/maenlasku.mp3" type="audio/mpeg"></audio>
+    <audio id="kavely"><source src="sound/kavely.mp3" type="audio/mpeg"></audio>
+    <audio id="kasvihuone"><source src="sound/kasvihuone.mp3" type="audio/mpeg"></audio>
 
     <div id="photo-frame">
         <img id="photo" onclick="closePhoto()">
@@ -61,7 +74,8 @@
         L.tileLayer('http://karttalehtinen.s3-website-eu-west-1.amazonaws.com/helsinki1925/{z}/{x}/{y}.png',
             {
                 tms: true,
-                maxNativeZoom: 16
+                maxNativeZoom: 16,
+                attribution: 'Helsingin kaupunginarkisto / Kaupunkisuunnitteluvirasto, asemakaavaosaston arkisto'
             }).addTo(map);
 
         map.setView([60.17424222834386, 24.944286346435547], 16);
@@ -84,7 +98,6 @@
         function closePhoto() {
             document.getElementById('photo-frame').style.display = 'none';
             document.getElementById(sound).pause();
-            document.getElementById(sound).currentTime = 0;
         }
 
         function createMarker(coords, name) {
@@ -102,7 +115,13 @@
         createMarker([60.173559195700115, 24.946968555450443], 'puisto');
         createMarker([60.17359121317258, 24.943127632141117], 'sorsat');
         createMarker([60.17546951693718, 24.94179725646973], 'luistinrata');
-
+        createMarker([60.17389004141053, 24.950165748596195], 'unioninkatu');
+        createMarker([60.175245406790275, 24.945960044860843], 'kasvihuone');
+        createMarker([60.17477583771459, 24.943213462829593], 'tivoli');
+        createMarker([60.17354852320237, 24.946131706237797], 'maenlasku');
+        createMarker([60.173916722371, 24.946850538253788], 'kavely');
+        createMarker([60.17517070306816, 24.94799852371216], 'tulipalo');
+        
     </script>
 </body>
 </html>
