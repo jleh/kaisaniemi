@@ -145,7 +145,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "maenlasku",
-        "kuvatiedot"; "Lapsia laskemassa mäkeä Kaisaniemessä. Pekka Kyytinen, 1958, Museovirasto."
+        "kuvatiedot": "Lapsia laskemassa mäkeä Kaisaniemessä. Pekka Kyytinen, 1958, Museovirasto."
       },
       "geometry": {
         "type": "Point",
@@ -204,7 +204,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "akrobaatit",
-        "kuvatiedot": "Chester Dieckin polkupyöräakrobaattiryhmän \"4 Chester Dieck\" naiset esiintymässä Kaisaniemen Tivolissa (=Suomen Tivoli) 27.6.1947. G. Vainio, 1947."
+        "kuvatiedot": "Chester Dieckin polkupyöräakrobaattiryhmän 4 Chester Dieck naiset esiintymässä Kaisaniemen Tivolissa (=Suomen Tivoli) 27.6.1947. G. Vainio, 1947."
       },
       "geometry": {
         "type": "Point",
