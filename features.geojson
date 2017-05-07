@@ -173,6 +173,9 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "nimi": "koulu",
         "kuvatiedot": "Kaisanniemen ala-asteen koulu. Helsingin kaupunki 1924. HKM."
       },
@@ -181,6 +184,19 @@
         "coordinates": [
           24.948127269744873,
           60.173249691857556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "akrobaatit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.943138360977173,
+          60.1748825585485
         ]
       }
     }
