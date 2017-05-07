@@ -105,7 +105,7 @@
 
         // Markers here
 
-        fetch('https://raw.githubusercontent.com/jleh/kaisaniemi/master/features.geojson')
+        fetch('features.geojson')
             .then(function(res) { return res.json(); })
             .then(function(json) {
                 L.geoJson(json, {
