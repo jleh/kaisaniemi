@@ -81,8 +81,9 @@
         map.setView([60.17424222834386, 24.944286346435547], 16);
 
         function markerClicked(e) {
-            playSound(e.target.options.name);
-            showPhoto(e.target.options.name);
+            var name = e.layer.feature.properties.nimi;
+            playSound(name);
+            showPhoto(name);
         }
 
         function playSound(name) {
@@ -108,6 +109,15 @@
 
         // Markers here
 
+        fetch('https://raw.githubusercontent.com/jleh/kaisaniemi/master/features.geojson')
+            .then(function(res) { return res.json(); })
+            .then(function(json) {
+                L.geoJson(json)
+                    .addTo(map)
+                    .on('click', markerClicked);
+            });
+
+/*
         createMarker([60.17381266650259, 24.944211244583133], 'yo');
         createMarker([60.1731002751657, 24.94377136230469], 'suihkulahde');
         createMarker([60.17665407374073, 24.94256973266602], 'koira');
@@ -121,7 +131,7 @@
         createMarker([60.17354852320237, 24.946131706237797], 'maenlasku');
         createMarker([60.173916722371, 24.946850538253788], 'kavely');
         createMarker([60.17517070306816, 24.94799852371216], 'tulipalo');
-        
+*/
     </script>
 </body>
 </html>
