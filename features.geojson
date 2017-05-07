@@ -169,6 +169,20 @@
           60.17517070306816
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "koulu",
+        "kuvatiedot": "Kaisanniemen ala-asteen koulu. Helsingin kaupunki 1924. HKM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.948127269744873,
+          60.173249691857556
+        ]
+      }
     }
   ]
 }
