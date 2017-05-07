@@ -217,7 +217,7 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "kioski"
+        "nimi": "kioski",
         "kuvatiedot": "Helsingin Muinaismuistolautakunta ja valokuvaaja Signe Brander sunnuntairetkellä katsastamassa kuvauskohteita. Reinhold Hausen, 1907, HKM."
       },
       "geometry": {
@@ -231,7 +231,7 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "allashakli" 
+        "nimi": "allashakli", 
         "kuvatiedot": "Suomen kansallisteatteri. Etualalla Kaisaniemen puiston vesiallas suihkulähteineen. Kari Hakli, 2011, HKM."
       },
       "geometry": {
