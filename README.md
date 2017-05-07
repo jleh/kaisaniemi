@@ -13,6 +13,6 @@ The soundscapes could be developed further by addind people's stories and memori
 over the sound effects. For example the picture of an empty street and a walking sound could be dramatised further with
 the news of women being afraid in Kaisaniemi park at night.
 
-Photographs: Finna, Sound effects: Freesound, Yle Archives. Map:
+Photographs: Finna, Sound effects: Freesound, Yle Archives. Map: Helsinki Region Infoshare
 
 Group: Julia Donner, Aalto University. Katja Hilska-Keinänen, Yle Archives. Juuso Lehtinen, Karttalehtinen.
