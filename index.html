@@ -39,6 +39,14 @@
             border-radius: 4px;
             cursor: pointer;
         }
+        #photo-attribute {
+            position: absolute;
+            bottom: -2em;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            background-color: #000;
+        }
     </style>
 </head>
 <body>
@@ -48,6 +56,7 @@
 
     <div id="photo-frame">
         <img id="photo" onclick="closePhoto()">
+        <div id="photo-attribute"></div>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
@@ -69,7 +78,7 @@
         function markerClicked(e) {
             var name = e.layer.feature.properties.nimi;
             playSound(name);
-            showPhoto(name);
+            showPhoto(name, e.layer.feature.properties.kuvatiedot);
         }
 
         function playSound(name) {
@@ -77,9 +86,10 @@
             document.getElementById(name).play();
         }
 
-        function showPhoto(name) {
+        function showPhoto(name, attribute) {
             document.getElementById('photo-frame').style.display = 'block';
             document.getElementById('photo').src = 'photos/' + name + '.jpg';
+            document.getElementById('photo-attribute').innerHTML = attribute;
         }
 
         function closePhoto() {
