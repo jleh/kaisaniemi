@@ -4,7 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "yo"
+        "nimi": "yo",
+        "kuvatiedot": "Öinen Kaisaniemi. Matti Honkavaara, 1971, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -17,7 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "suihkulahde"
+        "nimi": "suihkulahde",
+        "kuvatiedot": "Kaisaniemi, Joutsenlampi. Tuntematon valokuvaaja, 1915, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +32,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "koira"
+        "nimi": "koira",
+        "kuvatiedot": "F. Oskar Lindroos leikkii Truls -koiran kanssa ravintola Kaisaniemen pihalla. Tuntematon valokuvaaja, 1905, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +46,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "vappu"
+        "nimi": "vappu",
+        "kuvatiedot": "Vappu – 1. Maj. A/B R.E. Westerlund O/Y, 1920-1929, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +60,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "puisto"
+        "nimi": "puisto",
+        "kuvatiedot": "Kaisaniemi. Signe Brander, 1912, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -69,7 +74,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "sorsat"
+        "nimi": "sorsat",
+        "kuvatiedot": "Kaisaniemen lammikko, taustalla Kansallisteatteri (Onni Tarjanne, 1902). Signe Brander, 1912, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +88,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "luistinrata"
+        "nimi": "luistinrata",
+        "kuvatiedot": "Näkymä luistinradalta. Aarne Pietinen OY, 1938, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "unioninkatu"
+        "nimi": "unioninkatu",
+        "kuvatiedot": "Kaisaniemen liikenneympyrä, Kaisaniemenkadun risteys. Unto Laitila 1966, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -108,7 +116,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "kasvihuone"
+        "nimi": "kasvihuone",
+        "kuvatiedot": "Kaisaniemen kasvihuone. Gustav Nyström, 1889, Aalto yliopiston arkisto."
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +130,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "tivoli"
+        "nimi": "tivoli",
+        "kuvatiedot": "Suomen Tivolin sisäänkäynnin porttirakennelma Suomen Suurkisoissa kesällä 1947 Kaisaniemessä. Tuntematon valokuvaaja 1947, Keravan museo."
       },
       "geometry": {
         "type": "Point",
@@ -134,7 +144,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "maenlasku"
+        "nimi": "maenlasku",
+        "kuvatiedot"; "Lapsia laskemassa mäkeä Kaisaniemessä. Pekka Kyytinen, 1958, Museovirasto."
       },
       "geometry": {
         "type": "Point",
@@ -147,7 +158,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "kavely"
+        "nimi": "kavely",
+        "kuvatiedot": "Kaisaniemen puisto. G. Herlin, 1930–1939, HKM."
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +172,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "tulipalo"
+        "nimi": "tulipalo",
+        "kuvatiedot": "Tulipalo kasvitieteellisessä puutarhassa Kaisaniemessä. Pietinen, 1934, Museovirasto."
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +203,8 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "akrobaatit"
+        "nimi": "akrobaatit",
+        "kuvatiedot": "Chester Dieckin polkupyöräakrobaattiryhmän "4 Chester Dieck" naiset esiintymässä Kaisaniemen Tivolissa (=Suomen Tivoli) 27.6.1947. G. Vainio, 1947."
       },
       "geometry": {
         "type": "Point",
