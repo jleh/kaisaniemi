@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "yo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.944211244583133,
+          60.17381266650259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "suihkulahde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94377136230469,
+          60.1731002751657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "koira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94256973266602,
+          60.17665407374073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "vappu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94106769561768,
+          60.176664745229466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "puisto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.946968555450443,
+          60.173559195700115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "sorsat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.943127632141117,
+          60.17359121317258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "luistinrata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94179725646973,
+          60.17546951693718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "unioninkatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.950165748596195,
+          60.17389004141053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "kasvihuone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.945960044860843,
+          60.175245406790275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "tivoli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.943213462829593,
+          60.17477583771459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "maenlasku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.946131706237797,
+          60.17354852320237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "kavely"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.946850538253788,
+          60.173916722371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "tulipalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94799852371216,
+          60.17517070306816
+        ]
+      }
+    }
+  ]
+}
