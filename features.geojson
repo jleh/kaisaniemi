@@ -226,6 +226,19 @@
           60.174354287030745
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "allashakli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94370698928833,
+          60.173767308713195
+        ]
+      }
     }
   ]
 }
