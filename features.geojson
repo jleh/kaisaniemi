@@ -199,6 +199,19 @@
           60.1748825585485
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "kioski"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.944264888763428,
+          60.174354287030745
+        ]
+      }
     }
   ]
 }
