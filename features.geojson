@@ -246,7 +246,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "yovappu",
-        "kuvatiedot": "Ylioppilaat viettämässä vappua Kaisaniemessä. Ivan Timiriasew 1.5.1915.Helsingin kaupunginmuseo."
+        "kuvatiedot": "Ylioppilaat viettämässä vappua Kaisaniemessä. Ivan Timiriasew 1.5.1915. Helsingin kaupunginmuseo."
       },
       "geometry": {
         "type": "Point",
