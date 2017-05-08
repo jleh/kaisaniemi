@@ -190,7 +190,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "nimi": "koulu",
-        "kuvatiedot": "Kaisanniemen ala-asteen koulu. Helsingin kaupunki 1924. HKM."
+        "kuvatiedot": "Kaisaniemen ala-asteen koulu. Helsingin kaupunki 1924. HKM."
       },
       "geometry": {
         "type": "Point",
@@ -231,7 +231,7 @@
     {
       "type": "Feature",
       "properties": {
-        "nimi": "allashakli", 
+        "nimi": "allashakli",
         "kuvatiedot": "Suomen kansallisteatteri. Etualalla Kaisaniemen puiston vesiallas suihkulähteineen. Kari Hakli, 2011, HKM."
       },
       "geometry": {
@@ -239,6 +239,20 @@
         "coordinates": [
           24.94370698928833,
           60.173767308713195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nimi": "yovappu",
+        "kuvatiedot": "Ylioppilaat viettämässä vappua Kaisaniemessä. Ivan Timiriasew 1.5.1915.Helsingin kaupunginmuseo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.941765069961548,
+          60.176648737995045
         ]
       }
     }
