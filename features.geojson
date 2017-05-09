@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "yo",
-        "kuvatiedot": "Öinen Kaisaniemi. Matti Honkavaara, 1971, HKM."
+        "kuvatiedot": "Öinen Kaisaniemi. Matti Honkavaara, 1971, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "suihkulahde",
-        "kuvatiedot": "Kaisaniemi, Joutsenlampi. Tuntematon valokuvaaja, 1915, HKM."
+        "kuvatiedot": "Kaisaniemi, Joutsenlampi. Tuntematon valokuvaaja, 1915, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +33,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "koira",
-        "kuvatiedot": "F. Oskar Lindroos leikkii Truls -koiran kanssa ravintola Kaisaniemen pihalla. Tuntematon valokuvaaja, 1905, HKM."
+        "kuvatiedot": "F. Oskar Lindroos leikkii Truls -koiran kanssa ravintola Kaisaniemen pihalla. Tuntematon valokuvaaja, 1905, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "vappu",
-        "kuvatiedot": "Vappu – 1. Maj. A/B R.E. Westerlund O/Y, 1920-1929, HKM."
+        "kuvatiedot": "Vappu – 1. Maj. A/B R.E. Westerlund O/Y, 1920-1929, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "puisto",
-        "kuvatiedot": "Kaisaniemi. Signe Brander, 1912, HKM."
+        "kuvatiedot": "Kaisaniemi. Signe Brander, 1912, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "sorsat",
-        "kuvatiedot": "Kaisaniemen lammikko, taustalla Kansallisteatteri (Onni Tarjanne, 1902). Signe Brander, 1912, HKM."
+        "kuvatiedot": "Kaisaniemen lammikko, taustalla Kansallisteatteri (Onni Tarjanne, 1902). Signe Brander, 1912, HKM.  Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "luistinrata",
-        "kuvatiedot": "Näkymä luistinradalta. Aarne Pietinen OY, 1938, HKM."
+        "kuvatiedot": "Näkymä luistinradalta. Aarne Pietinen OY, 1938, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +103,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "unioninkatu",
-        "kuvatiedot": "Kaisaniemen liikenneympyrä, Kaisaniemenkadun risteys. Unto Laitila 1966, HKM."
+        "kuvatiedot": "Kaisaniemen liikenneympyrä, Kaisaniemenkadun risteys. Unto Laitila 1966, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +117,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "kasvihuone",
-        "kuvatiedot": "Kaisaniemen kasvihuone. Gustav Nyström, 1889, Aalto yliopiston arkisto."
+        "kuvatiedot": "Kaisaniemen kasvihuone. Gustav Nyström, 1889, Aalto yliopiston arkisto. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +131,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "tivoli",
-        "kuvatiedot": "Suomen Tivolin sisäänkäynnin porttirakennelma Suomen Suurkisoissa kesällä 1947 Kaisaniemessä. Tuntematon valokuvaaja 1947, Keravan museo."
+        "kuvatiedot": "Suomen Tivolin sisäänkäynnin porttirakennelma Suomen Suurkisoissa kesällä 1947 Kaisaniemessä. Tuntematon valokuvaaja 1947, Keravan museo. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -145,7 +145,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "maenlasku",
-        "kuvatiedot": "Lapsia laskemassa mäkeä Kaisaniemessä. Pekka Kyytinen, 1958, Museovirasto."
+        "kuvatiedot": "Lapsia laskemassa mäkeä Kaisaniemessä. Pekka Kyytinen, 1958, Museovirasto. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +159,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "kavely",
-        "kuvatiedot": "Kaisaniemen puisto. G. Herlin, 1930–1939, HKM."
+        "kuvatiedot": "Kaisaniemen puisto. G. Herlin, 1930–1939, HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "tulipalo",
-        "kuvatiedot": "Tulipalo kasvitieteellisessä puutarhassa Kaisaniemessä. Pietinen, 1934, Museovirasto."
+        "kuvatiedot": "Tulipalo kasvitieteellisessä puutarhassa Kaisaniemessä. Pietinen, 1934, Museovirasto. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +190,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "nimi": "koulu",
-        "kuvatiedot": "Kaisaniemen ala-asteen koulu. Helsingin kaupunki 1924. HKM."
+        "kuvatiedot": "Kaisaniemen ala-asteen koulu. Helsingin kaupunki 1924. HKM. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -204,7 +204,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "akrobaatit",
-        "kuvatiedot": "Chester Dieckin polkupyöräakrobaattiryhmän 4 Chester Dieck naiset esiintymässä Kaisaniemen Tivolissa (=Suomen Tivoli) 27.6.1947. G. Vainio, 1947."
+        "kuvatiedot": "Chester Dieckin polkupyöräakrobaattiryhmän 4 Chester Dieck naiset esiintymässä Kaisaniemen Tivolissa (=Suomen Tivoli) 27.6.1947. G. Vainio, 1947. Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -218,7 +218,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "kioski",
-        "kuvatiedot": "Helsingin Muinaismuistolautakunta ja valokuvaaja Signe Brander sunnuntairetkellä katsastamassa kuvauskohteita. Reinhold Hausen, 1907, HKM."
+        "kuvatiedot": "Helsingin Muinaismuistolautakunta ja valokuvaaja Signe Brander sunnuntairetkellä katsastamassa kuvauskohteita. Reinhold Hausen, 1907, HKM.  Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +232,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "allashakli",
-        "kuvatiedot": "Suomen kansallisteatteri. Etualalla Kaisaniemen puiston vesiallas suihkulähteineen. Kari Hakli, 2011, HKM."
+        "kuvatiedot": "Suomen kansallisteatteri. Etualalla Kaisaniemen puiston vesiallas suihkulähteineen. Kari Hakli, 2011, HKM.  Audio: Freesound."
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +246,7 @@
       "type": "Feature",
       "properties": {
         "nimi": "yovappu",
-        "kuvatiedot": "Ylioppilaat viettämässä vappua Kaisaniemessä. Ivan Timiriasew 1.5.1915. Helsingin kaupunginmuseo."
+        "kuvatiedot": "Ylioppilaat viettämässä vappua Kaisaniemessä. Ivan Timiriasew 1.5.1915. Helsingin kaupunginmuseo. Audio: Yle Archives."
       },
       "geometry": {
         "type": "Point",
